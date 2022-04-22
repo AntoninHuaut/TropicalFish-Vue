@@ -4,7 +4,7 @@ import {computed, ref} from "vue";
 const types: string[] = ["betty", "blockfish", "brinely", "clayfish", "dasher", "flopper", "glitter", "kob", "snooper", "spotty", "stripey", "sunstreak"]
 const colors: string[] = ["blue", "brown", "cyan", "gray", "green", "light_blue", "light_gray", "lime", "magenta", "orange", "pink", "purple", "red", "white", "yellow"]
 
-let type = ref(types[1])
+let type = ref(types[0])
 let primaryColor = ref(colors[0])
 let secondaryColor = ref(colors[0])
 
